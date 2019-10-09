@@ -78,3 +78,25 @@
 .shop-item .shop-item-header {
   font-weight: bold;
 }
+
+.shop-item-full {
+  width: 100%;
+  display: flex;
+}
+
+.shop-item-full img {
+  width: 30% !important;
+}
+
+.shop-item-description p {
+  font-size: 20px;
+}
+
+.shop-item-description span {
+  font-weight: bold;
+  color: red;
+}
+
+.shop-may-like {
+  width: 100%;
+}
