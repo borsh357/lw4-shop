@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,37 @@
   <link rel="stylesheet" href="style.css">
   <title>Online shop</title>
 </head>
+
 <body>
   <main class="container">
-    <section class="shop-head">
-      <section class="block shop-logo">
-        <a href="index.html"><img src="img/logo.png" alt="Shop logo"></a>
-      </section>
-      <section class="block shop-cart">
-        <img src="img/cart.png" alt="Shop cart">
+    <header class="shop-head">
+      <a href="index.html">
+        <div class="block shop-logo"></div>
+      </a>
+      <div class="block shop-cart">
         <a href="">Cart (0)</a>
-      </section>
-    </section>
+      </div>
+    </header>
     <aside class="block shop-categories">
-      <strong>Categories:</strong> <br>
-      <a href="">Electronics</a> <br>
-      <a href="">Appliances</a> <br>
-      <a href="">category 1</a> <br>
-      <a href="">category 2</a> <br>
-      <a href="">category 3</a> <br>
-      <a href="">category 4</a> <br>
+      <strong>Categories:</strong>
+      <nav>
+        <a href="">Electronics</a>
+        <a href="">Appliances</a>
+        <a href="">category 1</a>
+        <a href="">category 2</a>
+        <a href="">category 3</a>
+        <a href="">category 4</a>
+      </nav>
     </aside>
     <section class="shop-content">
       <div class="block shop-item">
-        <div class="shop-img"><img src="img/shop-item.png" alt="shop item"></div>
-        <p class="shop-item-header"><a href="itempage.html">Shop item 1</a></p>
+        <a href="itempage.html">
+          <div class="shop-img"><img src="img/shop-item.png" alt="shop item"></div>
+          <p class="shop-item-header">Shop item 1</p>
+        </a>
         <a class="shop-add-to-cart-link" href="">Add to cart</a>
       </div>
-     <div class="block shop-item">
+      <div class="block shop-item">
         <div class="shop-img"><img src="img/shop-item.png" alt="shop item"></div>
         <p class="shop-item-header">Shop item 2</p>
         <a class="shop-add-to-cart-link" href="">Add to cart</a>
@@ -42,7 +47,8 @@
         <div class="shop-img"><img src="img/shop-item.png" alt="shop item"></div>
         <p class="shop-item-header">Shop item 3</p>
         <a class="shop-add-to-cart-link" href="">Add to cart</a>
-      </div><div class="block shop-item">
+      </div>
+      <div class="block shop-item">
         <div class="shop-img"><img src="img/shop-item.png" alt="shop item"></div>
         <p class="shop-item-header">Shop item 4</p>
         <a class="shop-add-to-cart-link" href="">Add to cart</a>
@@ -75,4 +81,5 @@
     </section>
   </main>
 </body>
+
 </html>
